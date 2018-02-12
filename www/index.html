@@ -16,11 +16,11 @@
         <div class="article-container"></div>
         <div class="articles-container"></div>
     </main>
-    <script type="text/javascript" src="/cordova.js"></script>
-    <script type="text/javascript" src="/js/polyfill.min.js"></script>
-    <script type="text/javascript" src="/js/articles.min.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/polyfill.min.js"></script>
+    <script type="text/javascript" src="js/articles.min.js"></script>
     <script type="text/javascript">
-        //app.initialize();
+        app.initialize();
         document.addEventListener('deviceready', this.onDeviceReady, false);
         let articleBlock = document.querySelector('.article-container');
         let articlesBlock = document.querySelector('.articles-container');
