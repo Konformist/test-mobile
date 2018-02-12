@@ -1,52 +1,11 @@
 {
-  "dependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-vue": "^2.0.1",
-    "cordova-android": "6.3.0",
-    "cordova-ios": "4.5.4",
-    "cordova-plugin-battery-status": "~1.2.4",
-    "cordova-plugin-camera": "~2.4.1",
-    "cordova-plugin-device": "~1.1.6",
-    "cordova-plugin-dialogs": "~1.3.3",
-    "cordova-plugin-file": "~4.3.3",
-    "cordova-plugin-geolocation": "~2.4.3",
-    "cordova-plugin-globalization": "~1.0.7",
-    "cordova-plugin-inappbrowser": "~1.7.1",
-    "cordova-plugin-media-capture": "~1.4.3",
-    "cordova-plugin-network-information": "~1.3.3",
-    "cordova-plugin-vibration": "~2.1.5",
-    "css-loader": "^0.28.9",
-    "gulp": "^3.9.1",
-    "gulp-add-src": "^0.2.0",
-    "gulp-autoprefixer": "^4.1.0",
-    "gulp-babel": "^7.0.1",
-    "gulp-clean-css": "^3.9.2",
-    "gulp-concat-css": "^3.0.0",
-    "gulp-concat-sourcemap": "^1.3.1",
-    "gulp-css-url-adjuster": "^0.2.3",
-    "gulp-imagemin": "^4.1.0",
-    "gulp-jsmin": "^0.1.5",
-    "gulp-notify": "^3.2.0",
-    "gulp-plumber": "^1.2.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.4",
-    "gulp-webpack": "^1.5.0",
-    "sass-loader": "^6.0.6",
-    "vue-loader": "^14.1.1",
-    "vue-style-loader": "^3.1.2",
-    "vue-template-compiler": "^2.5.13",
-    "cordova-plugin-remote-injection": "~0.5.2"
-  },
-  "name": "knife-museum",
+  "name": "com.phonegap.helloworld",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "displayName": "helloworld",
   "cordova": {
+    "platforms": [
+      "android"
+    ],
     "plugins": {
       "cordova-plugin-battery-status": {},
       "cordova-plugin-camera": {},
@@ -56,13 +15,25 @@
       "cordova-plugin-file": {},
       "cordova-plugin-geolocation": {},
       "cordova-plugin-globalization": {},
-      "cordova-plugin-inappbrowser": {},
       "cordova-plugin-network-information": {},
       "cordova-plugin-vibration": {},
-      "cordova-plugin-remote-injection": {}
-    },
-    "platforms": [
-      "android"
-    ]
+      "cordova-plugin-remote-injection": {},
+      "cordova-plugin-inappbrowser": {}
+    }
+  },
+  "dependencies": {
+    "cordova-android": "~6.3.0",
+    "cordova-plugin-battery-status": "~1.2.4",
+    "cordova-plugin-camera": "~2.4.1",
+    "cordova-plugin-media-capture": "~1.4.3",
+    "cordova-plugin-device": "~1.1.6",
+    "cordova-plugin-dialogs": "~1.3.3",
+    "cordova-plugin-file": "~4.3.3",
+    "cordova-plugin-geolocation": "~2.4.3",
+    "cordova-plugin-globalization": "~1.0.7",
+    "cordova-plugin-network-information": "~1.3.3",
+    "cordova-plugin-vibration": "~2.1.5",
+    "cordova-plugin-remote-injection": "~0.5.2",
+    "cordova-plugin-inappbrowser": "~1.7.2"
   }
 }
