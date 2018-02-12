@@ -106,6 +106,8 @@ public class CordovaActivity extends Activity {
         // need to activate preferences before super.onCreate to avoid "requestFeature() must be called before adding content" exception
         loadConfig();
 
+        this.appView.getStrings().setSupportZoom(true);
+
         String logLevel = preferences.getString("loglevel", "ERROR");
         LOG.setLogLevel(logLevel);
 
