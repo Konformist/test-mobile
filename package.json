@@ -39,7 +39,8 @@
     "sass-loader": "^6.0.6",
     "vue-loader": "^14.1.1",
     "vue-style-loader": "^3.1.2",
-    "vue-template-compiler": "^2.5.13"
+    "vue-template-compiler": "^2.5.13",
+    "cordova-plugin-remote-injection": "~0.5.2"
   },
   "name": "knife-museum",
   "version": "1.0.0",
@@ -57,7 +58,8 @@
       "cordova-plugin-globalization": {},
       "cordova-plugin-inappbrowser": {},
       "cordova-plugin-network-information": {},
-      "cordova-plugin-vibration": {}
+      "cordova-plugin-vibration": {},
+      "cordova-plugin-remote-injection": {}
     },
     "platforms": [
       "android"
