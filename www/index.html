@@ -14,16 +14,11 @@
             <div class="articles-container"></div>
         </main>
         <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/polyfill.min.js"></script>
         <script type="text/javascript" src="js/articles.min.js"></script>
         <script type="text/javascript">
-            let articleBlock = document.querySelector('.article-container');
-            let articlesBlock = document.querySelector('.articles-container');
-            let articles = new Articles(articleBlock, articlesBlock);
-        </script>
-        <script type="text/javascript">
-            app.initialize();
-            document.addEventListener('deviceready', this.onDeviceReady, false);
+            var articleBlock = document.querySelector('.article-container');
+            var articlesBlock = document.querySelector('.articles-container');
+            var articles = new Articles(articleBlock, articlesBlock);
         </script>
     </body>
 </html>
