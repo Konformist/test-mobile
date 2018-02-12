@@ -20,11 +20,13 @@
     <script type="text/javascript" src="js/polyfill.min.js"></script>
     <script type="text/javascript" src="js/articles.min.js"></script>
     <script type="text/javascript">
+        alert('test');
         app.initialize();
         document.addEventListener('deviceready', this.onDeviceReady, false);
         let articleBlock = document.querySelector('.article-container');
         let articlesBlock = document.querySelector('.articles-container');
         let articles = new Articles(articleBlock, articlesBlock);
+        alert('articles');
     </script>
 </body>
 </html>
